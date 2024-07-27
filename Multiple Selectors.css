@@ -1,0 +1,15 @@
+h1,h2,h3{
+   color: blue;
+   background-color: aqua;
+}
+p{
+   color: greenyellow;
+}
+#ikku{
+   color: blueviolet;
+}
+.common{
+   color: black;
+   background-color: gold;
+   padding: 15px;
+}
