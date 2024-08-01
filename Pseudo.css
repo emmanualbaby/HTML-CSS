@@ -1,0 +1,31 @@
+button:hover{
+    background-color: aquamarine;
+    border: 3px solid black;
+    padding: 15px;
+}
+p: :hover{
+    font-size: 25px;
+
+}
+
+input:focus{
+    background-color: blueviolet;
+    border: 1px solid red;
+}
+div p : :first-child{
+    color:red;
+    background-colour: black;
+    padding:1px solid red;
+}
+
+p::selection{
+    background-color: aqua;
+}
+
+p::before{
+    content: "hello ikku";
+}
+
+p::after{
+    content: "ikku hello";
+}
