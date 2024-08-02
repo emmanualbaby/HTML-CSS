@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: aquamarine;
+
+}
+
+div h1{
+    color: aqua;
+}
+
+.header{
+    color: blue;
+}
+
+#header{
+    color: orange;
+}
+
+#header{
+    color: blueviolet !important;
+}
