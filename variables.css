@@ -1,0 +1,36 @@
+:root {
+    --bg-colors: blue;
+    --font-family: "Tahoma";
+
+}
+
+
+
+.header-1{
+    color: red;
+    background-color: var(--bg-color);
+    font-family:var(--font-family)
+}
+
+.header-2{
+    color: rgb(0, 255, 89);
+    background-color: var(--bg-color);
+
+}
+
+.header-3{
+    color: rgb(221, 0, 255);
+    background-color: var(--bg-color);
+}
+
+.header-4{
+    color: rgb(0, 26, 255);
+    background-color: var(--bg-color);
+}
+
+.header-5{
+    color: rgb(255, 238, 0);
+    background-color: var(--bg-color);
+}
+
+
