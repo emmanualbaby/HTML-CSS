@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+
+.container{
+    background-color: aqua;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.ONE,.TWO,.THREE{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.ONE{
+    order: 3;
+}
+
+.TWO{
+    order: 2;
+}
+
+.THREE{
+    order: 1;
+}
