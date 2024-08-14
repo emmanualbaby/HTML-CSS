@@ -1,0 +1,20 @@
+.section-1 {
+    width: 500px;
+    height: 500px;
+    background-color:cyan ;
+}
+
+@media screen and (max-width:400px) {
+    .section-1 {
+        font-size: 14pc;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(12, 12, 12);
+    }
+
+}
+
+samp {
+    display: none;
+}
+
